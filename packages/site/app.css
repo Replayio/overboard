@@ -10,8 +10,8 @@
 }
 
 :root {
-  --font-size-primary: 5rem;
-  --font-size-secondary: 2rem;
+  --font-size-primary: 3rem;
+  --font-size-secondary: 1.5rem;
   --font-size-tertiary: 1rem;
 
   --radii-primary: 0.2rem;
@@ -43,7 +43,8 @@ body {
 img,
 svg {
   display: block;
-  max-width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 h1,
@@ -136,10 +137,10 @@ header {
 .Color input {
   grid-area: 1 / 1 / 1 / 1;
   appearance: none;
-  width: var(--overboard-space-4);
-  height: var(--overboard-space-4);
-  min-width: 40px;
-  min-height: 40px;
+  width: var(--overboard-space-3);
+  height: var(--overboard-space-3);
+  min-width: 20px;
+  min-height: 20px;
   border-radius: 100%;
   transform: scale(1);
   transition: transform 180ms ease-out;

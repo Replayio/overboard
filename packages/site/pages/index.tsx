@@ -24,8 +24,8 @@ export default function Product() {
         display: "grid",
         placeItems: "center",
         paddingTop: "var(--space-3)",
-        paddingBottom: "var(--space-3)",
-        gap: "var(--space-3)",
+        paddingBottom: "var(--space-2",
+        gap: "var(--space-2)",
       }}
     >
       <Column gap={1}>

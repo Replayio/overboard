@@ -40,10 +40,10 @@ export function PurchaseForm({
       action="/api/purchase"
       method="post"
       onSubmit={handleSubmit}
-      gap={4}
+      gap={3}
       style={{ placeItems: "center" }}
     >
-      <Column gap={3}>
+      <Column gap={2}>
         <Colors onColorChange={color => onDataChange("color", color)}>
           {Object.entries(colorways).map(([name, [start, end]]) => (
             <Color
