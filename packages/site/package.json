@@ -22,7 +22,7 @@
     "webpack-react-component-name": "^5.0.4"
   },
   "devDependencies": {
-    "@playwright/test": "1.37.0",
+    "@playwright/test": "1.42.0",
     "@replayio/cypress": "1.7.20",
     "@replayio/playwright": "2.0.0-alpha.10",
     "@types/node": "^20.12.2",
